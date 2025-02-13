@@ -9,7 +9,7 @@ from styles import apply_custom_style
 st.set_page_config(page_title="Portfolio X-ray", layout="wide")
 
 # Display Banner Image
-st.image("assets/banner.png", use_container_width=True)
+st.image("banner.png", use_container_width=True)
 
 # Apply custom styling
 st.markdown(apply_custom_style(), unsafe_allow_html=True)
